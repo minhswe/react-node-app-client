@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
-const API_URL = "http://localhost:8080";
+const API_URL = "https://react-node-app-backend-production.up.railway.app";
 function AddSmartphone() {
     const [name, setName] = useState("");
     const [brand, setBrand] = useState("");
