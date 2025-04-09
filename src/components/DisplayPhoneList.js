@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Card, Row, Col, Container, Spinner, Alert } from "react-bootstrap";
 function DisplayPhoneList() {
-    const API_URL = "react-node-app-backend-production.up.railway.app";
+    const API_URL = "https://react-node-app-backend-production.up.railway.app";
     const [phones, setPhones] = useState([]);
     const [loading, setLoading] = useState(true); // Track loading state
     const [error, setError] = useState(null); // Track error state
