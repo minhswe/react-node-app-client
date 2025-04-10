@@ -23,7 +23,7 @@ function SignIn() {
     setError('');
 
     try {
-      const response = await fetch('https://react-node-app-backend-production.up.railway.app//user/signin', {
+      const response = await fetch('https://react-node-app-backend-production.up.railway.app/user/signin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
